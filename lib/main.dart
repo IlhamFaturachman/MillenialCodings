@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:utter/nyoba.dart';
+import 'package:utter/pages/redesign.dart';
 import 'package:utter/screen1.dart';
 
 void main() {
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const ScreenAwal(),
+      home: const RedesignUtter(),
     );
   }
 }
